@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+	    <meta name="Author" content="Atexis Spain SL">
+	    <meta name="description" content="VT01 - Cabina VT01 Panel 2" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-touch-startup-image" href="../images/base_fondo.png" />
+
+	    <title>Lữ đoàn 918 | Thư viện tài liệu kỹ thuật C295</title>
+
+	    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+	    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	    <link rel="stylesheet" type="text/css" href="css/cabeceras.css">
+	    <link rel="stylesheet" type="text/css" href="css/paneles.css">
+	    <link rel="stylesheet" type="text/css" href="css/custom.css">
+	    <link rel="stylesheet" type="text/css" href="css/custom-responsive.css">
+
+	    <script src="js/jquery-2.0.0.min.js"></script>
+	    <script src="js/jquery.min.js"></script> 
+	    <script src="js/jquery.panzoom.js"></script>
+	    <script src="js/disableZoom.js"></script>
+	    <script src="js/cab_con_panel.js"></script>
+	    <script src="js/jquery.mousewheel.min.js"></script>
+	    <script src="js/paneles.js"></script>
+	</head>
+  	<body class="paneles panel2_VT01">
+	    <header>
+		    <!-- Logotipo de Airbus -->
+		    <a href="http://localhost:8011/" target="_blank">
+		        <img  class="logoAirbus" src="images/QCPKKQ.png" />
+		    </a>
+		    <!-- Botones de arriba a la derecha -->
+		    <!--<div class="menu-top">
+               <div><a href="virtual_cockpit_VT01.html"><img class="imgBack" src="images/btn-back.png" alt="Home" /></a></div>
+               <div><a href="ind_cockpit_VT01.html"><img class="imgIndice" src="images/btn-indice.png" alt="Index" /></a></div>
+            </div>-->
+		    <!-- Titulo operador -->
+		    <div class="optitle">
+		         <p class="beforetitle">Tài liệu kỹ thuật - Glareshield</p>
+		         <p class="maintitle">Casa C-295</p>
+		    </div>
+		    <!-- Fecha -->
+		    <nav id="lastUpdate">
+		        <span>Last Update: OCT 2021</span>
+		    </nav>
+		    <hr class="lineaHoriz" />
+	    </header>
+	    <section>
+	        <main>
+	            <!-- ZONAS CALIENTES -->
+	            <div id="panel" class="panel2_VT01 parent">
+	                <div id="panzoom"> 
+	                   <a><div class="botonhov boton1"></div></a>
+	                   <a><div class="botonhov boton2"></div></a>
+	                   <a><div class="botonhov boton3"></div></a>
+	                   <a><div class="botonhov boton4"></div></a>
+            			<!-- Imagen del panel. Debe llevar id si el panel cambia estilo serviceBulletin -->
+	                   <img src="images/cockpit/glareshield_VT01.png" width="100%" height="100%" border="0"> 
+	               </div>
+	           </div>
+	           <!-- FIN ZONAS CALIENTES -->
+
+	           <!-- INICIO DATOS -->
+	           <div class="datos datos1 datos4">
+	               <div class="enlaces">
+	                	<a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-31.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Master warning & Caution Lights - </strong>Indicating/Recording System</a>
+		            </div>
+		        </div>
+		        <div class="datos datos2">
+		           <div class="enlaces">
+		            	<a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-22.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> FGCP - </strong>Auto Flight</a>
+			        </div>
+			    </div>
+			    <div class="datos datos3">
+			       <div class="enlaces">
+			        	<a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-23.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> V/UHF Control - </strong>Communications</a>
+				    </div>
+				</div>
+
+				<!-- FIN DATOS -->
+			</main>
+		</section>
+		<div class="clear"></div>
+		<footer></footer>
+	</body>
+</html>

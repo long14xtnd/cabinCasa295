@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="Author" content="Atexis Spain SL">
+    <meta name="description" content="VT01 - Tài liệu kỹ thuật VT01 Panel 1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" /> 
+    <meta name="apple-touch-startup-image" href="../images/base_fondo.png" />
+
+    <title>Lữ đoàn 918 | Thư viện tài liệu kỹ thuật C295</title>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/cabeceras.css">
+    <link rel="stylesheet" type="text/css" href="css/paneles.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/custom-responsive.css">
+    
+    <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/jquery.panzoom.js"></script>
+    <script src="js/disableZoom.js"></script>
+    <script src="js/cab_con_panel.js"></script>
+    <script src="js/jquery.mousewheel.min.js"></script>
+    <script src="js/paneles.js"></script>
+    <script src="js/radioButtons.js"></script>
+  </head>
+  <body class="paneles panel1_VT01">
+    <header>
+      <!-- Logotipo de Airbus -->
+      <a href="http://localhost:8011/" target="_blank">
+          <img  class="logoAirbus" src="images/QCPKKQ.png" />
+      </a>
+      <!-- Botones de arriba a la derecha -->
+      <!--<div class="menu-top">
+               <div><a href="virtual_cockpit_VT01.html"><img class="imgBack" src="images/btn-back.png" alt="Home" /></a></div>
+               <div><a href="ind_cockpit_VT01.html"><img class="imgIndice" src="images/btn-indice.png" alt="Index" /></a></div>
+            </div>-->
+      <!-- Titulo operador -->
+      <div class="optitle">
+          <p class="beforetitle">Tài liệu kỹ thuật - Overhead Panel</p>
+          <p class="maintitle">Casa C-295</p>
+      </div>
+      <!-- Fecha -->
+      <nav id="lastUpdate">
+          <span>Last Update: OCT 2021</span>
+      </nav>
+      <hr class="lineaHoriz" />
+    </header>
+    <section>
+      <main>
+        <!-- ZONAS CALIENTES -->
+        <div id="panel" class="panel1_VT01 parent">
+          <div id="panzoom">
+          <!-- Se crean en numero de subpaneles que lleva el panel -->
+            <a><div class="botonhov boton1"></div></a>
+            <a><div class="botonhov boton2"></div></a>
+            <a><div class="botonhov boton3"></div></a>
+            <a><div class="botonhov boton4"></div></a>
+            <a><div class="botonhov boton5"></div></a>
+            <a><div class="botonhov boton6"></div></a>
+            <a><div class="botonhov boton7"></div></a>
+            <a><div class="botonhov boton8"></div></a>
+            <a><div class="botonhov boton9"></div></a>
+            <a><div class="botonhov boton10"></div></a>
+            <a><div class="botonhov boton11"></div></a>
+            <a><div class="botonhov boton12"></div></a>
+            <a><div class="botonhov boton13"></div></a>
+            <a><div class="botonhov boton14"></div></a>
+            <a><div class="botonhov boton15"></div></a>
+            <a><div class="botonhov boton16"></div></a>
+            <a><div class="botonhov boton17"></div></a>
+            <a><div class="botonhov boton18"></div></a>
+            <a><div class="botonhov boton19"></div></a>
+            <a><div class="botonhov boton20"></div></a>
+            <a><div class="botonhov boton21"></div></a>
+            <a><div class="botonhov boton22"></div></a>
+            <a><div class="botonhov boton23"></div></a>
+            <!-- Imagen del panel. Debe llevar id si el panel cambia estilo serviceBulletin -->
+            <img src="images/cockpit/overhead_panel_VT01.png" width="100%" height="100%" border="0"> 
+          </div>
+        </div>
+        <!-- FIN ZONAS CALIENTES -->
+
+        <!-- INICIO DATOS -->
+        <div class="datos datos1">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Breakers - </strong>Electrical Power</a>
+          </div>
+        </div>
+        <div class="datos datos2">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-30.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Ice Protection - </strong>Ice and Rain Protection</a>
+          </div>
+        </div>
+        <div class="datos datos3">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-27.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> System test - </strong>Flight Controls</a><br />
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> System test - </strong>Electrical Power</a><br />
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-26.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> System test - </strong>Fire Protection</a><br />
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-32.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> System test - </strong>Landing Gear</a>
+          </div>
+        </div>
+        <div class="datos datos4">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-33.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Ext Lt - </strong>Lights</a>
+          </div>
+        </div>
+        <div class="datos datos5">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-28.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Fuel System - </strong>Fuel</a>
+          </div>
+        </div>
+        <div class="datos datos6">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-27.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Flight Control - </strong>Flight Controls</a>
+          </div>
+        </div>
+        <div class="datos datos7">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-71.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Electronic Control/Status - </strong>Power Plant</a>
+          </div>
+        </div>
+        <div class="datos datos8">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-71.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Engine Start - </strong>Power Plant</a>
+          </div>
+        </div>
+        <div class="datos datos9">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-21.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Pressurization Indication - </strong>Environmental Control</a>
+          </div>
+        </div>
+        <div class="datos datos10">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> MSTR Elec - </strong>Electrical Power</a>
+          </div>
+        </div>
+        <div class="datos datos11">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-21.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Pressurization Control - </strong>Environmental Control</a>
+          </div>
+        </div>
+        <div class="datos datos12">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-34.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Standby Compass - </strong>Navigation</a>
+          </div>
+        </div>
+        <div class="datos datos13">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> MISC BUS - </strong>Electrical Power</a>
+          </div>
+        </div>
+        <div class="datos datos14">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> AC Inverters - </strong>Electrical Power</a>
+          </div>
+        </div>
+        <div class="datos datos15">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Power Generation - </strong>Electrical Power</a>
+          </div>
+        </div>
+        <div class="datos datos16">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-29.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Hydraulic Sys - </strong>Hydraulic Power</a>
+          </div>
+        </div>
+        <div class="datos datos17">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-26.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Fire - </strong>Fire Protection</a>
+          </div>
+        </div>
+        <div class="datos datos18">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-33.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> FLT Deck LT - </strong>Lights</a>
+          </div>
+        </div>
+        <div class="datos datos19">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-31.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> CVR - </strong>Indicating/Recording System</a>
+          </div>
+        </div>
+        <div class="datos datos20">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-71.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Feather/APR - </strong>Power Plant</a>
+          </div>
+        </div>
+        <div class="datos datos21">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-71.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> HYDR Utility - </strong>Power Plant</a><br />
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-52.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> HYDR Utility - </strong>Doors</a> 
+          </div>
+        </div>
+        <div class="datos datos22">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-21.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Air Conditioning - </strong>Environmental Control</a></a><br />
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-36.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Air Conditioning - </strong>Pneumatic</a> 
+          </div>
+        </div>
+        <div class="datos datos23">
+          <div class="enlaces">
+            <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-33.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Internal LT - </strong>Lights</a>
+          </div>
+        </div>
+        <!-- FIN DATOS -->
+      </main>
+    </section>
+    <div class="clear"></div>
+    <footer></footer>
+  </body>
+</html>

@@ -1,0 +1,741 @@
+/**
+*@author Atexis Spain SL
+*/
+
+/*Colores AIRBUS
+#ffffff
+#000000
+Main color airbus blue
+#00205b
+#005587
+#0085ad
+#6399ae
+#b7c9d3
+background:
+#08284e
+#333333
+*/
+
+.capitulo{
+	padding:5px;
+	padding-left: 30px;
+	padding-right: 30px;
+	overflow: hidden;
+}
+
+.infoDesc{
+	padding-left: 15px;
+}
+.annexes li{
+	list-style: initial;
+	list-style-position: inside;
+}
+body.inicio, html {
+    font-size: 100%;
+}
+html {
+    font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+body {
+    font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+body.informacion{
+	background-attachment: fixed;
+}
+
+body.indice{
+	background-size: cover;
+	background-attachment: fixed;
+}
+body.cabina{
+	background-size: cover;
+	background-attachment: scroll;
+}
+nav#lastUpdate {
+    top: 99%;
+    font-size: 11px;
+    width: 100%;
+    padding-left: 5px;
+    position: fixed;
+    line-height: 0px;
+    z-index: 3;
+    color:#b7c9d3;
+}
+
+.inicio main{
+    width: auto;
+    margin-left: 21%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.inicio section{
+    height: auto;
+}
+
+section {
+    margin-left: 0px;
+    padding-right: 5%;
+    width: 100%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+/******************************Aniadido del nuevo EFB***********************************/
+body.inicio {
+    /*Original image by Björn Strey under the following Creative Commons License: By & Share alike*/
+    background: transparent url("../images/base_fondo.png") repeat fixed 0% 0% / cover content-box;
+}
+
+body{
+    overflow:auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul.rig {
+    font-size: 0px !important;
+    margin: 0px;
+}
+ ul.rig li {
+ 	padding:0px;
+ 	border:none;
+ 	box-shadow:none;
+    background-color: #005587;
+}
+
+a.imagelink:focus{
+	outline: none;
+	outline-offset: 0px;
+}
+
+.mainGrid {
+    text-align: left;
+    margin-left: 0px;
+    align-content: center;
+    width: 100%;
+    padding-top: 200px;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/*Para cambiar el espacio a los lados, sobre todo cuando hago cambio del numero de columnas*/
+/*.mainGrid {
+    padding-left: 30%;
+    padding-right: 230%;
+}*/
+/*FIN Para cambiar el espacio a los lados, sobre todo cuando hago cambio del numero de columnas*/
+
+/*Clase para hacer el cuadrado grande*/
+ul.rig li img{
+    margin: 0px;
+    min-width: 100%;
+}
+
+#fondo{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: #000;
+    opacity: 0.0;
+    z-index: 20;
+    display:none;
+
+    -webkit-transition-property: opacity;
+    -moz-transition-property:  opacity;
+    -o-transition-property: opacity;
+    transition-property:  opacity;
+
+    -webkit-transition-duration: 0.1s;
+    -moz-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+} 
+
+.cuadrado{
+    cursor: pointer;
+    background-color: transparent;
+}
+.cuadradoSuelto{
+    font-weight: 600;
+    
+
+}
+
+.cuadradoGrande{
+    box-shadow: 50px 64px 9px 17px rgba(0, 0, 0, 0.5);
+    margin: 0px;
+    top: 13%;
+    left: 34.5% !important;
+    padding: 0px;
+    background-color: #005587;
+    width: 31% !important;
+    z-index:21 !important;
+    box-shadow: 12px 39px 9px 17px rgba(0, 0, 0, 0.1) !important;
+}
+.cuadradoDelantero{
+    z-index: 25 !important;
+}
+.cuadradoDelanteroIz{
+    left: 16% !important;
+}
+.cuadradoTrasero{
+
+}
+.cuadradoTraseroDe{
+    left: 53%  !important;
+}
+
+/*Este estilo prodria ir perfectamente en la clase .claseLogo*/
+.libre img{
+    margin:0px;
+    position: relative;
+    width: 100%;
+    top: 0px;
+
+    -webkit-transition-property: top;
+    -moz-transition-property:  top;
+    -o-transition-property: top;
+    transition-property:  top;
+
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+
+}
+
+
+.libre{
+    position:absolute;
+    display:none;
+    background-color: #005587;
+    z-index: 21;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+
+
+    -webkit-transition-property: box-shadow,margin,top,left,position,padding,width;
+    -moz-transition-property:  box-shadow,margin,top,left,position,padding,width;
+    -o-transition-property: box-shadow,margin,top,left,position,padding,width;
+    transition-property:  box-shadow,margin,top,left,position,padding,width;
+
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+
+}
+.libre ul{
+
+    -webkit-transition-property: opacity;
+    -moz-transition-property:  opacity;
+    -o-transition-property: opacity;
+    transition-property:  opacity;
+
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+
+/*NUEVOESTILO*/
+
+.claseLogo{
+    padding:6%;
+}
+.libre div{
+
+    -webkit-transition-property: opacity;
+    -moz-transition-property:  opacity;
+    -o-transition-property: opacity;
+    transition-property:  opacity;
+
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+/**********/
+
+.imagelink {
+    position: relative;
+}
+
+.imagelink img{
+    padding: 6%;
+}
+
+
+
+
+.linksCuadrado{
+    width: initial;
+    float: left;
+    list-style: outside none none;
+
+}
+
+.linksCuadrado ul{
+    opacity:1;
+}
+
+.linksCuadrado img{
+    top: -50px;
+}
+
+.linksCuadrado div{
+    opacity:1;
+}
+.cuadradoLista{
+    position: absolute;
+    bottom: 0px;
+    opacity:0;
+    color: #fff;
+    width:100%;
+    padding: 0px;
+    text-align: center;
+
+}
+/*Para el caso especial de los cuadrados que tienen varios enlaces*/
+/*#cuadradoSuelto1_2 .cuadradoLista, .cuadradoLista,#cuadradoSuelto9_2 .cuadradoLista{
+    bottom: 5%;
+    text-align: left;
+    padding-right: 3%;
+    padding-left: 13%;
+    padding-bottom: 1%;
+}*/
+
+.listaLinksTitulo {
+    margin-bottom: 7px;
+}
+
+#cuadradoSuelto1 .cuadradoLista .listaLinksTitulo {
+    font-size: 1em;
+}
+
+.listaLinks .cuadradoLista{
+    bottom: 0%;
+    text-align: center;
+    padding: 0px;
+}
+
+
+.AOMgroup {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    font-size: 0.97em;
+}
+.SDgroup {
+    margin-right: 1px;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; 
+}
+
+.LPgroup {
+    margin-left: 1px;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+}
+
+.VCgroup{
+    font-size: 0.97em;
+}
+.FITSgroup{
+    font-size: 0.97em;
+}
+/***********************/
+
+
+.cuadradoLista div a{
+    
+    color:#fff;
+    text-decoration: none;
+    outline: medium none !important;
+    outline-offset: 0px !important;
+
+    -webkit-transition-property: color;
+    -moz-transition-property:  color;
+    -o-transition-property: color;
+    transition-property:  color;
+
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+/***********************/
+
+.cuadradoLista div a:hover{
+    color: #b7c9d3;
+
+}
+
+.cuadradoLista div a:active{
+    color: #b7c9d3;
+}
+.cuadradoLista div a:focus{
+    color: #b7c9d3;
+}
+/***********************/
+.linkUnico{
+    margin-left: 0px;
+    bottom: 6%;
+    font-size: 1.1em;
+    color:#b7c9d3;
+    text-decoration: none !important;
+    outline: medium none !important;
+    outline-offset: 0px !important;
+
+    -webkit-transition-property: color;
+    -moz-transition-property:  color;
+    -o-transition-property: color;
+    transition-property:  color;
+
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.linkUnico:hover{
+   color: #fff;
+}
+.linkUnico:active{
+    color: #fff;  
+}
+.linkUnico:focus{
+    color: #fff; 
+}
+
+.subeImg{
+    top: -50px;
+}
+
+.disabledElement {
+    pointer-events: none;
+}
+/*Fin Clase para hacer el cuadrado grande*/
+
+
+.iconosCab {
+    color: aliceblue;
+    margin-top: 120%;
+    padding-left: 50px;
+    font-size: 4.5em;
+}
+
+.fa {
+    font-family: FontAwesome,Arial !important;
+}
+
+.btn::before{
+    font-family: inherit;
+    font-size: 180%;
+
+}
+
+
+/*********************Ajuste de paneles**************************/
+
+
+
+#panel {
+    height: 100%;
+    width: 100%;
+    z-index:0;
+    overflow-y: visible;
+}
+
+.paneles section {
+    margin-left: 0%;
+    margin-top: 0%;
+    padding-right: 0%;
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+}
+
+#panzoom{
+    margin-top:95px;
+}
+
+/*************FIN Ajuste de Paneles*****************************/
+
+/*****************Cabeceras y pies paneles**************************/
+.enlaces {
+    display: inline-block;
+    text-align: left;
+}
+/*************************FIN Cabeceras y pies paneles******************************/
+
+/*Quito a todos los enlaces el punteado cuando esta focus*/
+a{
+    outline: none !important;
+    outline-offset: 0px !important;
+}
+/*FIN Quito a todos los enlaces el punteado cuando esta focus*/
+
+
+.listaLinksItem{
+    float: left;
+    font-size: 0.8em;
+    background-color: #0085AD;
+    padding: 8px 6px;
+    width: 100%;
+    margin-top: 2px;
+    position: relative;
+
+}
+
+
+.listaLinksGroup {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -o-flex-flow: row nowrap;
+    flex-flow: row nowrap; 
+
+    justify-content: -webkit-flex-start;
+    justify-content: -moz-flex-start;
+    justify-content: -o-flex-start;
+    justify-content: flex-start;
+    
+    align-items: -webkit-flex-start;
+    align-items: -moz-flex-start;
+    align-items: -o-flex-start;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: row;
+    width: 100%;
+}
+
+.linkItem {
+    background-color: rgb(0, 133, 173);
+    padding: 40px 9px;
+}
+
+.linkItem.nombreLargo {
+    padding: 25px 9px;
+}
+
+/*Necesario cuando hay muchos enlaces, para que quepan bien*/
+#cuadradoSuelto1.linksCuadrado img,  #cuadradoSuelto1_2.linksCuadrado img{
+    top: -66px; 
+}
+
+#cuadradoSuelto6.linksCuadrado img,  #cuadradoSuelto6_2.linksCuadrado img{
+    top: -66px; 
+}
+
+
+.lineaNueva{
+    clear: left;
+}
+
+/********************************************************************************************/
+
+
+.serviceBulletin{
+    position: absolute;
+    padding: 0px 10px;
+    left: 0%;
+    top: 95px;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #0085AD;
+    z-index: 1;
+    min-width: 255px;
+}
+
+/*SERVICE BULETINS*/
+/* Se le da un tamaño minimo al recuador de los service bulletin para que no cambie el ancho al cambiar la seleccion*/
+.serviceBulletin.SBc0203p1{
+    min-width: 680px;
+}
+.serviceBulletin.SBc02p6{
+    min-width: 740px;
+}
+.serviceBulletin.SBc0203p5{
+    min-width: 390px;
+}
+
+.brilloCambio {
+
+    box-shadow: 0px 0px 18px 15px #0085ad;
+}
+
+#pre, #post{
+    outline: none !important;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+ display: none;
+}
+
+.radio{
+    text-align: left;
+}
+.radio label {
+    padding-left: 0px;
+    text-align: left;
+    display: inline-flex;
+}
+
+input[type=radio] + label::before {
+
+    background-image: url("../images/radiobutton_desk_uncheck.png");
+    background-size: 15px;
+    flex:0 0 auto;
+    width: 15px; 
+    height: 15px;
+    content:"";
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin: 3px 11px 0px 0px;
+    float: left;
+}
+input[type=radio]:checked + label::before {
+
+    background-image: url("../images/radiobutton_desk_check.png");
+
+}
+input[type="radio"]:checked + label {
+    font-weight: bold;
+}
+.clmitem{
+
+    font-size: 1em;
+    padding:16px 6px;
+}
+.clmitem.listaLinksSubitem1{
+
+    font-size:0.8em;
+}
+.clmitem.listaLinksSubitem2{
+    font-size:0.8em;
+
+
+}
+.LPgroup {
+    margin-left: 0px;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+}
+.LPgroup .listaLinksSubitem1 {
+    margin-right: 1px;
+}
+.LPgroup .listaLinksSubitem2 {
+    margin-left: 1px;
+}
+/*FIN SERVICE BULETINS*/
+
+
+
+/*Configuracion del primer cuadrado 2-1-2*/
+
+.AOMgroup {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    font-size: 0.97em;
+    flex-direction: column;
+}
+
+.SDgroup {
+    margin-right: 0px;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -o-flex-flow: row nowrap;
+    flex-flow: row nowrap; 
+
+   
+}
+.SDgroup .listaLinksItem {
+    margin-right: 0px;
+}
+.SDgroup .listaLinksSubitem1 {
+    margin-right: 1px;
+}
+.SDgroup .listaLinksSubitem2 {
+    margin-left: 1px;
+}
+
+.LPgroup {
+    margin-left: 0px;
+    -webkit-flex: 1 1 auto;
+    -moz-flex: 1 1 auto;
+    -o-flex: 1 1 auto;
+    flex: 1 1 auto; 
+
+}
+.LPgroup .listaLinksSubitem1 {
+    margin-right: 1px;
+}
+.LPgroup .listaLinksSubitem2 {
+    margin-left: 1px;
+}
+
+.VCgroup{
+    font-size: 0.97em;
+}
+
+.listaLinksGroup {
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    -o-flex-flow: row nowrap;
+    flex-flow: row nowrap; 
+
+    justify-content: -webkit-flex-start;
+    justify-content: -moz-flex-start;
+    justify-content: -o-flex-start;
+    justify-content: flex-start;
+    
+    align-items: -webkit-flex-start;
+    align-items: -moz-flex-start;
+    align-items: -o-flex-start;
+    align-items: flex-start;
+
+    width: 100%;
+}
+
+/*FIN Configuracion del primer cuadrado 2-1-2*/

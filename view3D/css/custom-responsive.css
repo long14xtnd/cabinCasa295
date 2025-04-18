@@ -1,0 +1,390 @@
+/**
+*@author Atexis Spain SL
+*/
+/*******************************************************/
+/* Segmento1 Extra small devices (phones, <= 767px) */
+/*Mas pequeño que el ipad en portrait*/
+/*******************************************************/
+
+@media (max-width: 767px){
+
+	header{
+		height: 140px;
+	}
+
+	#panzoom{
+		margin-top:140px;
+	}
+	.optitle {
+	    width: 100%;
+	    padding: 0px 5px 12px;
+	    margin: 0px;
+	    height: auto;
+	    font-size: 1.3em;
+	    text-align: right !important;
+	    margin-right: 50px;
+	}
+	.logoAirbus{
+		height: 90px;
+	}
+	.menu-top {
+		height: auto;
+		position: absolute;
+		top:0px;
+		right: 0px;
+	}
+	.lineaHoriz{
+		position: absolute;
+		top: 140px;
+	}
+
+	.pulsador{
+		top: 167px;
+		left: 15px;
+		height: 30px;
+		width: 30px;
+	}
+	.pulsador div{
+		padding: 14px 9px 5px 6px;
+	}
+	#nav-toggle span, #nav-toggle span::before, #nav-toggle span::after {
+		height: 2px;
+		width: 18px;
+	}
+	#nav-toggle span::before {
+	    top: -6px;
+	}
+	#nav-toggle span::after {
+	    top: 6px;
+	}
+	.menuDesplegable{
+		top: 150px;
+		height: 55%;
+	}
+	.desplegableImg {
+	    height: 60px;
+	}
+	.menuDesplegableBody {
+	    font-size: 0.7em;
+	}
+	.menuDesplegableBody .children img {
+	    padding: 13px 16px 13px 16px;
+	}
+
+
+	#cuadradoSuelto1{
+		font-size: 0.95em !important;
+	}
+
+	.mainGrid {
+    	padding-top: 12%;
+	}
+
+
+	.serviceBulletin{
+		font-size: 0.8em;
+		top:143px;
+
+	}
+	.serviceBulletin .radio{
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+
+	#indice .izq{
+		margin-bottom:0px;
+	}
+
+	.cuadradoGrande{
+	    top: 27%;
+	    left: 27% !important;
+	    width: 46% !important;
+	}
+
+
+	ul.rig li {
+    	width: 47.5% !important;
+    	margin: 0px 0px 2.5% 2.5%;
+	}
+
+	.mainGrid {
+    	padding-top: 19%;
+    	margin-top:140px;
+	}
+
+	nav#lastUpdate {
+	    font-size: 9px;
+	}
+
+	.linkItem {
+	    padding: 25% 15px;
+	    height: 100%;
+	}
+
+
+	.AOMgroup {
+	   
+	    display: -webkit-flex;
+	    display: -moz-flex;
+	    display: -o-flex;
+	    display: flex;
+	}
+	.linksCuadrado img, #cuadradoSuelto1.linksCuadrado img, #cuadradoSuelto1_2.linksCuadrado img,#cuadradoSuelto9.linksCuadrado img, #cuadradoSuelto9_2.linksCuadrado img {
+	    top: -300px;
+	}
+	#cuadradoSuelto1 .cuadradoLista .listaLinksTitulo, #cuadradoSuelto2 .cuadradoLista .listaLinksTitulo {
+	    font-size: 0.8em;
+	}
+
+	.listaLinksTitulo {
+	    margin-bottom: 3%;
+	    margin-top: 5%;
+	}
+
+	.cuadradoTraseroDe{
+	    left: 27%  !important;
+	    top: 72% !important;
+	}
+
+	.cuadradoDelanteroIz{
+	    left: 27% !important;
+	    top: 23% !important;
+	}
+	.izq, .der{
+		width: 100%;
+	}
+	.der {
+	    margin-bottom: 30px;
+	}
+	#indice, #indice-fits {
+	    margin-top: 120px;
+	}
+	#indice-fits {
+	    margin-bottom: 20px;
+	}
+	#cont-indice{
+	    width:70%;
+	}
+	#cont-indice-fits{
+	    width:70%;
+	}
+	.cabinaFits .marcadores{
+		margin-top: 30px;
+	}
+	.cabinaFits #imgGlobal{
+
+		margin-top: 30px;
+	}
+
+	input[type=radio] + label:before {
+
+	    background-image: url("../images/radiobutton_desk_uncheck.png");
+	    background-size: 10px;
+	    flex:0 0 auto;
+	    width: 10px; 
+	    height: 10px;
+	    content:"";
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    margin: 3px 11px 0px 0px;
+	}
+	input[type=radio]:checked + label:before {
+
+	    background-image: url("../images/radiobutton_desk_check.png");
+	    background-size: 10px;
+	    flex:0 0 auto;
+	    width: 10px; 
+	    height: 10px;
+	    content:"";
+	    background-repeat: no-repeat;
+	    background-position: center top;
+	    margin: 3px 11px 0px 0px;
+	}
+
+	.serviceBulletin.SBc02p1{
+	    min-width: 100%;
+	}
+
+}
+
+
+/*******************************************************/  
+/* Segmento2 Small devices (tablets, 768px - 1023px) */
+/*iPad en portrait*/
+/*******************************************************/
+
+@media (min-width: 768px) and (max-width: 1023px)  {
+
+
+	.paneles .menutop {
+    	min-width: 171px;
+    }
+	.menutop img{
+        padding: 65px 0px 0px 38px;
+    }
+
+    .paneles .menutop {
+    	margin-right: 50px;
+    	min-width: 171px;
+    }
+
+	.paneles .menutop img{
+        padding: 20px 0px 0px 24px;
+    }
+    .paneles .menutop {
+        padding: 3px 18px 0px;
+        height: 54px;
+    }
+
+    .indice .menutop img{
+        padding: 35px 0px 0px 35px;
+    }
+
+	body.cabina{
+		background-position: left top;
+		width: 1365px;
+
+	}
+	.cuadradoGrande{
+	    top: 27%;
+	    left: 27% !important;
+	    width: 46% !important;
+	}
+
+	.cuadradoTraseroDe{
+	    left: 27%  !important;
+	    top: 56% !important;
+	}
+
+	.cuadradoDelanteroIz{
+	    left: 27% !important;
+	    top: 13% !important;
+	}
+
+	ul.rig li {
+    	width: 47.5% !important;
+	}
+
+	.izq, .der{
+		width: 100%;
+	}
+	.der {
+	    margin-bottom: 30px;
+	}
+	#indice {
+	    margin-top: 30px;
+	}
+
+	#cont-indice-fits{
+	    width:50%;
+	}
+
+	.serviceBulletin.SBc0203p1{
+	    min-width: 100%;
+	}
+	.serviceBulletin.SBc02p6{
+	    min-width: 100%;
+	}
+
+}
+
+
+/*******************************************************/
+/* Segmento3 Medium devices (desktops, 1024px - 1440px) */
+/*iPad en landscape*/
+/*******************************************************/
+@media (min-width: 1024px) and (max-width: 1440px){ 
+
+	.inicio .transparentGrid {
+	    width: 100%;
+	}
+	.paneles .menutop {
+    	min-width: 171px;
+    }
+
+    .cuadradoTraseroDe{
+	    left: 53%  !important;
+
+	}
+
+	.cuadradoDelanteroIz{
+	    left: 16% !important;
+
+	}
+
+ }
+
+/*******************************************************/
+/*Segmento4 Large devices (large desktops, >= 1441px) */
+/*Navegador*/
+/*******************************************************/
+
+@media (min-width: 1441px) {
+
+
+	.cuadradoGrande {
+	    width: 400px !important;
+		left: 38.2% !important;
+	}
+
+
+	.cuadradoDelanteroIz {
+	    left: 23% !important;
+	}
+	.cuadradoTraseroDe {
+	    left: 53% !important;
+	}
+	.inicio .optitle {
+	    margin-right: 140px;
+	}
+	.logoAirbus{
+		margin-left: 90px;
+	}
+
+	.global{
+		text-align: center;
+	}
+
+	/*Lo paso a cuatro columnas*/
+	/*	ul.rig.columns-3 li {
+	    width: 21.83%;
+	}*/
+/*	.mainGrid{
+		padding-left: 25%;
+    	padding-right: 25%;
+	}*/
+	/*FIN paso a cuatro columnas*/
+
+	/*Lo paso a cinco columnas*/
+/*		ul.rig.columns-3 li {
+	    width: 17.5%;
+	}*/
+/*	.mainGrid{
+		padding-left: 22%;
+    	padding-right: 22%;
+	}*/
+	/*FIN paso a cinco columnas*/
+
+	ul.rig.columns-3 li {
+	    width: 30.8%;
+	}
+	.mainGrid{
+		padding-left: 30%;
+    	padding-right: 30%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

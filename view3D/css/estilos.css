@@ -1,0 +1,1236 @@
+/**
+*@author Atexis Spain SL
+*/
+@charset "utf-8";
+/* CSS Document */
+
+/* GENERALES */
+html, body {height: 100%;}
+body{background-image:url(../images/base_fondo.png); background-repeat: no-repeat; background-position:center top; background-size:100% 100%;
+margin:0;padding:0;
+color:#666;}
+
+
+header{line-height:0;height:15%;}
+header img{width:100%;}
+section{width:100%; height:85%;margin:auto;}
+.indice section{height:80%;}
+main{height:100%;}
+footer{display:none;}
+ul, li{padding:0; margin:0; list-style:none;}
+main #wrapper{text-align:center;}
+.clear{clear:both;}
+a{color:inherit; text-decoration:none; border:none;outline:0;}
+a img{border:none;}
+
+/* BOTONES */
+.inicio nav ul{width: 100%; line-height:0}
+.inicio nav ul img{width:100%}
+#cssmenu li{width:50%;margin-bottom:-2%}
+#cssmenu .submenu li{width:125%}
+#cssmenu img{width:100%}
+#cssmenu img:hover{opacity:0.7}
+.btn-cabina{margin-bottom:0.7%;}
+.btn-cabina img:hover{opacity:0.7}
+.btn-informacion{}
+.btn-informacion img:hover{opacity:0.7}
+
+.menu{display:table-cell; vertical-align:middle}
+
+/* INDICE */
+
+
+
+
+/* PANELES */
+.paneles main{width:100%; height:100%; margin:auto}
+#panel{height:81.5%;width:80%;margin:auto;}
+#info{height:90%;width:80%;margin:auto;padding-top:2%;}
+#info img{width:100%}
+.datos{margin:auto;display:none; background:url("../images/background-datos.png") no-repeat scroll -7% top rgba(0, 0, 0, 0); padding: 1.2% 0 0 32%; font-size:120%;min-height:5%}
+
+.datos a:hover{opacity:0.5;text-decoration:underline}
+
+.datos strong{text-transform:uppercase}
+.mostrar{display:block}
+
+
+
+.datos {
+
+    background: rgba(0, 85, 135, 0.7) none no-repeat scroll -7% center;
+    padding: 1%;
+    font-size: 120%;
+    min-height: 5%;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.datos a{
+
+    color:#fff;
+
+    -webkit-transition-property: color, opacity;
+    -moz-transition-property: color, opacity;
+    -o-transition-property: color, opacity;
+    transition-property: color, opacity;
+
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+
+}
+
+
+.datos a:hover{
+    text-decoration: none;
+    opacity: 1;
+    color:#6399ae;
+
+}
+.datos a:focus, .datos a:active{
+    text-decoration: none;
+    opacity: 1;
+    color:#6399ae;
+}
+
+
+.botonhov{
+    position: absolute;
+    background-color: #0085AD;
+    opacity: 0;
+    cursor: pointer;
+    -webkit-transition-property: opacity;
+    -moz-transition-property:  opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+.botonhov:hover, .hovered{
+    opacity:0.5;
+}
+
+.enlaceMark {
+    float: left;
+    height: 22px;
+    text-align: center;
+    vertical-align: middle;
+}
+.imgBookmark {
+    height: 100%;
+    position: relative;
+    padding-bottom: 4px;
+    margin-right: 10px;
+}
+/* ZONAS CALIENTES PANEL 1 */
+.panel1_VT01 .boton1 {
+    height: 24.2%;
+    width: 93.02%;
+    left: 3.45%;
+    top: 6.13%;
+    border-radius: 1px;
+}
+
+.divCambia_c0203p1_breakers{
+    height: 3.03%;
+    width: 6%;
+    left: 47.0%;
+    top: 13.04%;
+    
+    position: absolute;
+
+    -webkit-transition-property: box-shadow;
+    -moz-transition-property:  box-shadow;
+    -o-transition-property: box-shadow;
+    transition-property: box-shadow;
+
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration:  2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function:  ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.panel1_VT01 .boton2 {
+    
+    height: 25.1%;
+    width: 18.55%;
+    top: 34.38%;
+    left: 3.47%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton3 {
+    
+    height: 8.0%;
+    width: 18.52%;
+    left: 3.5%;
+    top: 59.45%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton4 {
+    height: 12.24%;
+    width: 18.58%;
+    left: 3.47%;
+    top: 67.47%;
+    border-radius: 2px;
+}
+
+
+.panel1_VT01 .boton5 {
+    
+    height: 15.0%;
+    width: 18.61%;
+    left: 22.03%;
+    top: 36.48%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton6 {
+    
+    height: 11.03%;
+    width: 18.6%;
+    left: 22.03%;
+    top: 51.47%;
+    border-radius: 2px; 
+}
+
+.panel1_VT01 .boton7 {
+    height: 8.01%;
+    width: 18.6%;
+    left: 22.03%;
+    top: 62.51%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton8 {
+    height: 9.22%;
+    width: 18.6%;
+    left: 22.02%;
+    top: 70.51%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton9 {
+    height: 5.85%;
+    width: 16.05%;
+    left: 25.45%;
+    top: 82.17%;
+    border-radius: 1px;
+}
+
+.panel1_VT01 .boton10 {
+        
+    height: 7.13%;
+    width: 9.98%;
+    left: 42.88%;
+    top: 80.91%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton11 {
+    
+    height: 7.14%;
+    width: 22.73%;
+    left: 52.9%;
+    top: 80.9%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton12 {
+    
+    height: 6.34%;
+    width: 7.57%;
+    left: 45.93%;
+    top: 88.95%;
+    border-radius: 8px;
+}
+.panel1_VT01 .boton13 {
+    
+    height: 3.03%;
+    width: 18.55%;
+    left: 40.61%;
+    top: 34.37%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton14 {
+    
+    height: 6.07%;
+    width: 18.55%;
+    left: 40.61%;
+    top: 37.41%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton15 {
+    
+    height: 36.26%;
+    width: 18.53%;
+    left: 40.62%;
+    top: 43.47%;
+    border-radius: 1px; 
+}
+
+.panel1_VT01 .boton16 {
+    
+    height: 14.18%;
+    width: 18.66%;
+    left: 59.16%;
+    top: 34.38%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton17 {
+    
+    height: 12.95%;
+    width: 18.66%;
+    left: 59.14%;
+    top: 48.58%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton18 {
+    
+    height: 7.1%;
+    width: 18.63%;
+    left: 59.17%;
+    top: 61.5%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton19 {
+    
+    height: 6.19%;
+    width: 18.66%;
+    left: 59.16%;
+    top: 68.6%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton20 {
+    
+    height: 4.94%;
+    width: 18.66%;
+    left: 59.16%;
+    top: 74.8%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton21 {
+    
+    height: 13.05%;
+    width: 18.61%;
+    left: 77.84%;
+    top: 34.4%;
+    border-radius: 2px;
+}
+
+.panel1_VT01 .boton22 {
+    height: 21.11%;
+    width: 18.63%;
+    left: 77.81%;
+    top: 47.44%;
+    border-radius: 2px;
+}
+.panel1_VT01 .boton23 {
+    
+    height: 9.96%;
+    width: 18.66%;
+    left: 77.82%;
+    top: 69.78%;
+    border-radius: 2px;
+}
+
+
+/* ZONAS CALIENTES PANEL 2 */
+
+.panel2_VT01 .boton1 {
+    
+    height: 5.61%;
+    width: 2.3%;
+    left: 29.63%;
+    top: 45.85%;
+    border-radius: 1px;
+}
+
+.panel2_VT01 .boton2 {
+    
+    height: 8.04%;
+    width: 16.97%;
+    left: 41.78%;
+    top: 45.52%;
+    border-radius: 1px;
+}
+
+.panel2_VT01 .boton3 {
+    height: 5.96%;
+    width: 8.52%;
+    left: 58.89%;
+    top: 45.54%;
+    border-radius: 1px;
+}
+
+.panel2_VT01 .boton4 {
+    
+    height: 5.58%;
+    width: 2.3%;
+    left: 68.556%;
+    top: 45.9%;
+    border-radius: 1px;
+}
+
+/* ZONAS CALIENTES PANEL 3 */
+
+.panel3_VT01 .boton1 {
+        
+    height: 13.46%;
+    width: 12.84%;
+    left: 12.32%;
+    top: 59.7%;
+    border-radius: 4px;
+}
+
+.panel3_VT01 .boton2 {
+    height: 28.3%;
+    width: 6.26%;
+    left: 25.46%;
+    top: 43.35%;
+    border-radius: 4px;
+}
+
+.panel3_VT01 .boton3 {
+    height: 11.46%;
+    width: 6.49%;
+    left: 32.93%;
+    top: 31.08%;
+    border-radius: 4px;
+}
+
+
+.panel3_VT01 .boton4 {
+            
+    height: 11.56%;
+    width: 6.65%;
+    left: 40.66%;
+    top: 31.03%;
+    border-radius: 6px 5px 6px 8px;
+}
+
+.panel3_VT01 .boton5 {
+    
+    height: 12.06%;
+    width: 15.75%;
+    left: 31.86%;
+    top: 43.35%;
+    border-radius: 2px;
+}
+
+.panel3_VT01 .boton6 { 
+    height: 7.98%;
+    width: 9.75%;
+    left: 34.96%;
+    top: 56.4%;
+    border-radius: 4px;
+}
+.panel3_VT01 .boton7 {
+        
+    height: 4.03%;
+    width: 6.92%;
+    left: 58.66%;
+    top: 17.91%;
+    border-radius: 2px;
+}
+
+.panel3_VT01 .boton8 {
+    
+    height: 4%;
+    width: 2.25%;
+    left: 65.81%;
+    top: 17.97%;
+    border-radius: 2px;
+}
+
+.panel3_VT01 .boton9 {
+    
+    height: 6.5%;
+    width: 16.5%;
+    left: 68.46%;
+    top: 17.56%;
+    border-radius: 4px;
+    }
+
+
+.panel3_VT01 .boton10 {
+    
+    height: 52.3%;
+    width: 21.07%;
+    left: 51.5%;
+    top: 24.8%;
+    border-radius: 13px;
+}
+
+
+.panel3_VT01 .boton11 {
+    
+    height: 52.35%;
+    width: 21.1%;
+    left: 72.57%;
+    top: 24.7%;
+    border-radius: 13px;
+}
+
+/* ZONAS CALIENTES PANEL 4 */
+.panel4_VT01 .boton1 {
+    
+    height: 17.15%;
+    width: 16.97%;
+    left: 9.8%;
+    top: 49.48%;
+    border-radius: 1px;
+}
+.panel4_VT01 .boton3 {
+    height: 16.87%;
+    width: 16.9%;
+    left: 26.78%;
+    top: 38.6%;
+    border-radius: 2px;
+}
+
+.panel4_VT01 .boton4 {
+    height: 12%;
+    width: 16.92%;
+    left: 43.72%;
+    top: 41.0%;
+    border-radius: 2px;
+}
+
+.panel4_VT01 .boton5 {
+    height: 22.03%;
+    width: 16.98%;
+    left: 43.7%;
+    top: 53.0%;
+    border-radius: 2px;
+}
+
+.panel4_VT01 .boton6 {
+    
+    height: 11.67%;
+    width: 16.92%;
+    left: 60.68%;
+    top: 27.48%;
+    border-radius: 2px;
+}
+
+.panel4_VT01 .boton7 {
+    height: 21.55%;
+    width: 16.86%;
+    left: 60.705%;
+    top: 53.5%;
+    border-radius: 2px;
+}
+
+.panel4_VT01 .boton8 {
+    height: 13.68%;
+    width: 6.46%;
+    left: 84.79%;
+    top: 43.0%;
+    border-radius: 6px;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    
+}
+
+.panel4_VT01 .boton11 {
+    
+    height: 8.33%;
+    width: 16.98%;
+    left: 9.77%;
+    top: 66.7%;
+    border-radius: 2px;
+}
+
+/* ZONAS CALIENTES PANEL 5 */
+.panel5_VT01 .boton1 {
+    border-radius: 2px;
+    left: 8.2%;
+    top: 6.9%;
+    width: 26.04%;
+    height: 17.58%;
+}
+
+.panel5_VT01 .boton2{
+    width: 26.08%;
+    top: 4.75%;
+    border-radius: 2px;
+    left: 34.2%;
+    height: 3.72%;
+}
+
+.panel5_VT01 .boton3 {
+    height: 5.27%;
+    width: 26.16%;
+    left: 34.23%;
+    top: 13.75%;
+    border-radius: 2px;
+}
+
+.panel5_VT01 .boton4 {
+    width: 26.04%;
+    border-radius: 2px;
+    height: 17.58%;
+    top: 6.9%;
+    left: 60.28%;
+}
+
+
+.panel5_VT01 .boton5 {
+    
+    height: 20.17%;
+    width: 11.5%;
+    left: 8.2%;
+    top: 25.15%;
+    border-radius: 18px;
+}
+
+.panel5_VT01 .boton6 {
+        
+    width: 14%;
+    border-radius: 2px 0px 0px;
+    height: 18.12%;
+    top: 24.49%;
+    left: 20.32%;
+}
+
+.panel5_VT01 .boton7 {
+    height: 2.48%;
+    width: 4.06%;
+    left: 25.66%;
+    top: 42.65%;
+    border-radius: 5px;
+}
+
+.panel5_VT01 .boton8 {
+    
+    height: 30.7%;
+    width: 25.98%;
+    left: 34.32%;
+    border-radius: 0px 1px 2px;
+    top: 24.49%;
+    }
+
+.panel5_VT01 .boton9 {
+    
+    height: 11.08%;
+    width: 13.05%;
+    left: 60.33%;
+    top: 24.48%;
+    border-radius: 2px;
+}
+
+
+.panel5_VT01 .boton10 {
+    height: 9.0%;
+    width: 13.09%;
+    left: 60.3%;
+    top: 35.56%;
+    border-radius: 3px;
+}
+
+.panel5_VT01 .boton11 {
+    height: 18.83%;
+    width: 13.14%;
+    left: 73.35%;
+    top: 25.71%;
+    border-radius: 8px;
+}
+
+.panel5_VT01 .boton12 {
+    
+    height: 5.6%;
+    width: 26.08%;
+    top: 54.33%;
+    left: 8.23%;
+    border-radius: 1px;
+}
+
+.panel5_VT01 .boton13 {
+    height: 2.93%;
+    width: 26.03%;
+    top: 59.94%;
+    border-radius: 1px;
+    left: 8.23%;
+}
+
+.panel5_VT01 .boton14{
+        
+    height: 5.5%;
+    width: 25.98%;
+    left: 34.3%;
+    top: 55.19%;
+    border-radius: 4px;
+}
+
+.panel5_VT01 .boton15 {
+    
+    height: 4.8%;
+    width: 26.07%;
+    left: 60.3%;
+    top: 55.15%;
+    border-radius: 2px;
+}
+
+.panel5_VT01 .boton16 {
+    
+    height: 2.93%;
+    width: 26.09%;
+    left: 60.29%;
+    top: 59.94%;
+    border-radius: 2px;
+}
+
+.panel5_VT01 .boton17 {
+    height: 5.0%;
+    width: 26.03%;
+    left: 34.25%;
+    top: 63.5%;
+    border-radius: 1px;
+}
+
+.panel5_VT01 .boton18 {
+    
+    height: 8.75%;
+    width: 25.98%;
+    left: 34.3%;
+    top: 68.47%;
+    border-radius: 1px 1px 1px 3px;
+}
+
+.panel5_VT01 .boton19 {
+    top: 77.23%;
+    left: 34.25%;
+    width: 26.04%;
+    height: 6.52%;
+    border-radius: 2px;
+}
+
+.panel5_VT01 .boton20 {
+    
+    height: 3.98%;
+    width: 26.08%;
+    left: 34.25%;
+    top: 84.69%;
+    border-radius: 3px;
+}
+
+.panel5_VT01 .boton21 {
+    height: 6.66%;
+    width: 26.02%;
+    left: 34.26%;
+    top: 88.67%;
+    border-radius: 2px;
+}
+.panel5_VT01 .boton28{
+    height: 2.84%;
+    width: 25.99%;
+    left: 34.26%;
+    top: 60.68%;
+    border-radius: 3px;
+}
+
+/* ZONAS CALIENTES PANEL 6 */
+
+.panel6_VT01 .boton1 {
+    height: 21%;
+    width: 14.4%;
+    left: 5.9%;
+    top: 6.55%;
+    border-radius: 8px;
+}
+.panel6_VT01 .boton2 {
+    height: 13.17%;
+    width: 13.11%;
+    left: 78.9%;
+    top: 6.64%;
+    border-radius: 4px;
+}
+.panel6_VT01 .boton3 {
+    
+    height: 16.79%;
+    width: 8%;
+    left: 9.0%;
+    top: 68.15%;
+    border-radius: 6px;
+}
+
+.panel6_VT01 .boton4 {
+    width: 32.45%;
+    left: 21.09%;
+    border-radius: 5px;
+    top: 5.12%;
+    height: 80.3%;
+}
+
+.panel6_VT01 .boton5 {
+    height: 15.84%;
+    width: 11.48%;
+    left: 65.47%;
+    top: 6.15%;
+    border-radius: 6px;
+}
+
+.panel6_VT01 .boton6 {
+    
+    height: 26.61%;
+    width: 10.62%;
+    left: 54.04%;
+    top: 21.7%;
+    border-radius: 35px;
+}
+
+.panel6_VT01 .boton7 {
+    
+    height: 16.99%;
+    width: 8.07%;
+    left: 55.19%;
+    top: 62.64%;
+    border-radius: 4px;
+}
+
+
+.panel6_VT01 .boton8 {
+    
+    height: 14.97%;
+    width: 10.24%;
+    left: 54.07%;
+    top: 6.05%;
+    border-radius: 33px;
+}
+
+.divCambia_c04p6{
+    height: 14.97%;
+    width: 10.24%;
+    left: 54.07%;
+    top: 6.05%;
+    border-radius: 33px;
+    
+    position: absolute;
+
+    -webkit-transition-property: box-shadow;
+    -moz-transition-property:  box-shadow;
+    -o-transition-property: box-shadow;
+    transition-property: box-shadow;
+
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration:  2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function:  ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+.panel6_VT01 .boton10 {
+    height: 15.45%;
+    width: 10.62%;
+    left: 7.73%;
+    top: 52.16%;
+    border-radius: 8px 7px 6px 6px;
+}
+.panel6_VT01 .boton14 {
+    height: 20.7%;
+    width: 14.26%;
+    left: 6.01%;
+    top: 30.05%;
+    border-radius: 2px;
+}
+.panel6_VT01 .boton15 {
+        
+    height: 13.16%;
+    width: 10.05%;
+    left: 54.05%;
+    top: 49%;
+    border-radius: 6px;
+}
+
+
+.panel6_VT01 .boton17 {
+            
+    height: 13.07%;
+    width: 17.32%;
+    top: 23.01%;
+    left: 65.55%;
+    border-radius: 6px;
+}
+.panel6_VT01 .boton18 {
+    height: 16.24%;
+    width: 5.92%;
+    left: 85.52%;
+    top: 20.87%;
+    border-radius: 5px;
+}
+.panel6_VT01 .boton19 {
+        
+    height: 19.35%;
+    width: 15.0%;
+    border-radius: 6px 6px 0px 0px;
+    top: 38.86%;
+    left: 65.64%;
+}
+
+.panel6_VT01 .boton20 {
+    height: 7.64%;
+    width: 15.0%;
+    top: 58.2%;
+    border-radius: 0px 0px 6px 6px;
+    left: 65.64%;
+}
+
+
+/* ZONAS CALIENTES PANEL 7 */
+
+.panel7_VT01 .boton1 {
+    left: 73.62%;
+    height: 13.6%;
+    width: 12.97%;
+    top: 59.88%;
+    border-radius: 3px;
+}
+
+
+.panel7_VT01 .boton2 {
+    left: 51.06%;
+    height: 28.3%;
+    width: 6.27%;
+    top: 32.04%;
+    border-radius: 4px;
+}
+
+
+.panel7_VT01 .boton3 {
+    
+    left: 58.06%;
+    height: 11.5%;
+    width: 6.67%;
+    top: 39.19%;
+    border-radius: 5px;
+}
+
+
+.panel7_VT01 .boton4 {
+    
+    height: 11.5%;
+    width: 6.49%;
+    left: 66.49%;
+    top: 39.26%;
+    border-radius: 4px;
+}
+
+.panel7_VT01 .boton5 {
+        
+    height: 12.1%;
+    width: 15.76%;
+    left: 57.6%;
+    top: 51.46%;
+    border-radius: 1px;
+}
+
+
+.panel7_VT01 .boton6 {
+    
+    height: 8.0%;
+    width: 9.75%;
+    left: 60.6%;
+    top: 30.84%;
+    border-radius: 4px;
+}
+
+
+
+.panel7_VT01 .boton7 {
+    
+    height: 3.9%;
+    width: 6.5%;
+    left: 34.7%;
+    top: 18.08%;
+    border-radius: 2px;
+}
+
+
+.panel7_VT01 .boton8 {
+        
+    width: 2.21%;
+    left: 31.84%;
+    height: 3.93%;
+    top: 18.16%;
+    border-radius: 2px;
+}
+.panel7_VT01 .boton10 {
+    
+    height: 52.55%;
+    width: 21.18%;
+    left: 27.5%;
+    top: 24.65%;
+    border-radius: 13px;
+}
+
+
+.panel7_VT01 .boton11 {
+    left: 6.02%;
+    height: 52.75%;
+    width: 21.25%;
+    top: 24.5%;
+    border-radius: 9px;
+}
+
+
+.panel7_VT01 .boton12 {
+    height: 6.4%;
+    width: 16.72%;
+    left: 14.13%;
+    top: 17.79%;
+    border-radius: 4px;
+    
+}
+
+.panel7_VT01 .boton1 {
+    left: 74.7%;
+    height: 13.6%;
+    width: 12.96%;
+    top: 59.87%;
+    border-radius: 3px;
+}
+
+.panel7_VT01 .boton2 {
+        
+    left: 68.34%;
+    height: 27.96%;
+    width: 6.18%;
+    top: 43.55%;
+    border-radius: 4px;
+}
+
+
+.panel7_VT01 .boton3 {
+    
+    left: 52.71%;
+    height: 11.5%;
+    width: 6.65%;
+    top: 31.11%;
+    border-radius: 5px;
+}
+
+
+.panel7_VT01 .boton4 {
+    
+    height: 11.48%;
+    width: 6.49%;
+    left: 60.52%;
+    top: 31.07%;
+    border-radius: 4px;
+}
+
+.panel7_VT01 .boton5 {
+    height: 12.36%;
+    width: 15.75%;
+    left: 52.3%;
+    top: 43.35%;
+    border-radius: 1px;
+}
+
+
+.panel7_VT01 .boton6 {
+    height: 8.16%;
+    width: 9.77%;
+    left: 55.37%;
+    top: 56.1%;
+    border-radius: 4px;
+}
+
+
+
+
+.panel7_VT01 .boton7 {
+    
+    height: 3.9%;
+    width: 6.5%;
+    left: 34.7%;
+    top: 18.08%;
+    border-radius: 2px;
+}
+
+
+.panel7_VT01 .boton8 {
+        
+    width: 2.21%;
+    left: 31.84%;
+    height: 3.93%;
+    top: 18.16%;
+    border-radius: 2px;
+}
+
+
+
+.panel7_VT01 .boton9 {
+    
+    height: 6.23%;
+    width: 7.33%;
+    left: 6.13%;
+    top: 17.92%;
+    border-radius: 4px;
+}
+
+
+.panel7_VT01 .boton10 {
+    
+    height: 52.55%;
+    width: 21.18%;
+    left: 27.5%;
+    top: 24.65%;
+    border-radius: 13px;
+}
+
+
+.panel7_VT01 .boton11 {
+    left: 6.02%;
+    height: 52.75%;
+    width: 21.25%;
+    top: 24.5%;
+    border-radius: 9px;
+}
+
+
+.panel7_VT01 .boton12 {
+    height: 6.4%;
+    width: 16.72%;
+    left: 14.13%;
+    top: 17.79%;
+    border-radius: 4px;
+    
+}
+
+/* ZONAS CALIENTES PANEL 8 */
+
+.panel8_VT01 .boton1 {
+    
+    height: 17.32%;
+    top: 50.1%;
+    left: 72.5%;
+    width: 16.99%;
+    border-radius: 1px;
+}
+
+
+.panel8_VT01 .boton2 {
+    
+    height: 8.23%;
+    width: 16.96%;
+    left: 72.5%;
+    top: 67.32%;
+    border-radius: 1px;
+}
+
+
+.panel8_VT01 .boton3 {
+    
+    height: 14.07%;
+    width: 16.99%;
+    left: 21.55%;
+    top: 49.12%;
+    border-radius: 2px;
+}
+
+
+
+.panel8_VT01 .boton4 {
+    height: 11.9%;
+    width: 17.05%;
+    left: 38.52%;
+    top: 41.33%;
+    border-radius: 2px;
+}
+
+
+.panel8_VT01 .boton5 {
+    
+    height: 22.45%;
+    width: 16.96%;
+    left: 38.54%;
+    top: 53.1%;
+    border-radius: 1px;
+}
+
+
+.panel8_VT01 .boton6 {
+    height: 21.98%;
+    width: 16.97%;
+    left: 21.57%;
+    top: 27.15%;
+    border-radius: 1px;
+}
+
+
+.panel8_VT01 .boton7 {
+    height: 12.03%;
+    width: 16.95%;
+    left: 55.55%;
+    top: 39.53%;
+    border-radius: 1px;
+}
+
+
+.panel8_VT01 .boton8 {
+    
+    height: 13.99%;
+    width: 6.55%;
+    left: 8.0%;
+    top: 42.49%;
+    border-radius: 7px 5px 5px;
+
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);    
+
+}
+
+
+.panel8_VT01 .boton9 {
+    height: 10.83%;
+    width: 16.96%;
+    left: 72.49%;
+    top: 39.22%;
+    border-radius: 1px;
+}
+
+.panel8_VT01 .boton12 {
+    
+    height: 14.14%;
+    width: 16.99%;
+    left: 21.55%;
+    top: 61.41%;
+    border-radius: 2px;
+}
+
+
+/* CANVAS ZOOM */
+#panzoom{position:absolute;}
+#mycanvas img{width:100% !important}

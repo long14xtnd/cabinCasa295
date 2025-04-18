@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="Author" content="Atexis Spain SL">
+        <meta name="description" content="VT01 - Cockpit VT01 Panel 6" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes" /> 
+        <meta name="apple-touch-startup-image" href="../images/base_fondo.png" />
+
+        <title>Lữ đoàn 918 | Thư viện tài liệu kỹ thuật C295</title>
+
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/cabeceras.css">
+        <link rel="stylesheet" type="text/css" href="css/paneles.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="css/custom-responsive.css">
+        
+        <script src="js/jquery-2.0.0.min.js"></script> 
+        <script src="js/jquery.min.js"></script> 
+        <script src="js/jquery.panzoom.js"></script>
+        <script src="js/disableZoom.js"></script>
+        <script src="js/cab_con_panel.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+        <script src="js/paneles.js"></script>
+        <script src="js/radioButtons.js"></script>
+    </head>
+    <body class="paneles panel6_VT01">
+        <header>
+            <!-- Logotipo de Airbus -->
+            <a href="http://localhost:8011/" target="_blank">
+                <img  class="logoAirbus" src="images/QCPKKQ.png" />
+            </a>
+            <!-- Botones de arriba a la derecha -->
+            <!--<div class="menu-top">
+               <div><a href="virtual_cockpit_VT01.html"><img class="imgBack" src="images/btn-back.png" alt="Home" /></a></div>
+               <div><a href="ind_cockpit_VT01.html"><img class="imgIndice" src="images/btn-indice.png" alt="Index" /></a></div>
+            </div>-->
+            <!-- Titulo operador -->
+            <div class="optitle">
+                <p class="beforetitle">Tài liệu kỹ thuật - Central Panel</p>
+                <p class="maintitle">Casa C-295</p>
+            </div>
+            <!-- Fecha -->
+            <nav id="lastUpdate">
+                <span>Last Update: OCT 2021</span>
+            </nav>
+            <hr class="lineaHoriz" />
+        </header>
+        <section>
+            <main>
+                <!-- ZONAS CALIENTES -->
+                <div id="panel" class="panel6_VT01 parent">
+                    <!-- <div class="serviceBulletin">
+                        <div class="radio">
+                          <input type="radio" name="optradio" id="c01p6_pre" value="1" onclick=""><label for="c01p6_pre">For VT01 (pre SB-295-34-0043M) </label>
+                        </div>
+                        <div class="radio">
+                          <input type="radio" name="optradio" id="c01p6_post" value="2" onclick=""><label for="c01p6_post">For VT01 (post SB-295-34-0043M) </label>
+                        </div>
+                    </div> -->
+                    <div id="panzoom">
+                        <!-- Se crean en numero de subpaneles que lleva el panel -->
+
+                        <a><div class="botonhov boton1"></div></a>
+                        <a><div class="botonhov boton2"></div></a>
+                        <a><div class="botonhov boton3"></div></a>
+                        <a><div class="botonhov boton4"></div></a>
+                        <a><div class="botonhov boton5"></div></a>
+                        <a><div class="botonhov boton6"></div></a>
+                        <a><div class="botonhov boton7"></div></a>
+                        <a><div class="botonhov boton8"></div></a>
+                        <a><div class="botonhov boton10"></div></a>
+                        <a><div class="botonhov boton15"></div></a>
+                        <a><div class="botonhov boton17"></div></a>
+                        <a><div class="botonhov boton18"></div></a>
+                        <a><div class="botonhov boton19"></div></a>
+                        <a><div class="botonhov boton20"></div></a>
+                        <!-- Imagen del panel. Debe llevar id si el panel cambia estilo serviceBulletin -->
+                        <img src="images/cockpit/central_instrument_panel_VT01.png" width="100%" height="100%" border="0">
+                    </div>
+                </div>
+                 <!-- FIN ZONAS CALIENTES -->
+                 <!-- INICIO DATOS -->
+                 <div class="datos datos1">
+                     <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-34.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> IESI - </strong>Navigation</a>
+                    </div>
+                </div>
+                <div class="datos datos2">
+                <div class="enlaces">
+                    <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-23.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> HF Control - </strong>Communications</a>
+                    </div>
+                </div>
+                <div class="datos datos3">
+                    <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-52.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> EXT Doors - </strong>Doors</a>
+                    </div>
+                </div>
+                <div class="datos datos4">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-31.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> IEDS - </strong>Indicating/Recording System</a>
+                    </div>
+                </div>
+                <div class="datos datos5">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-27.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Flaps control - </strong>Flight Controls</a>
+                    </div>
+                </div>
+                <div class="datos datos6">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-27.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Trim indicator - </strong>Flight Controls</a>
+                    </div>
+                </div>
+                <div class="datos datos7">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-32.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Landing Gear - </strong>Landing Gear</a>
+                    </div>
+                </div>
+                <div class="datos datos8">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-27.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Flaps indicator- </strong>Flight Controls</a>
+                    </div>
+                </div>
+                <div class="datos datos10">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-31.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Accelerometer - </strong>Indicating/Recording System</a>
+                    </div>
+                </div>
+                <div class="datos datos15">
+                	<div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-32.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Landing Gear Indicator- </strong>Landing Gear</a>
+                    </div>
+                </div>
+                <div class="datos datos17">
+                    <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-34.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> IFF - </strong>Navigation</a>
+                    </div>
+                </div>
+                <div class="datos datos18">
+                    <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-24.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> MISC XFR - </strong>Electrical Power</a>
+                    </div>
+                </div>
+                <div class="datos datos19">
+                    <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-34.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Nav XFR - </strong>Navigation</a><br/>
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-31.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> Nav XFR - </strong>Indicating/Recording System</a><br/>
+                    </div>
+                </div>
+                <div class="datos datos20">
+                    <div class="enlaces">
+                        <a href="../OPSDOC/AIRCRAFT_OPERATIONS_MANUAL/VOL_I_SYSTEMS_DESCRIPTION/V_I-34.pdf" target="_blank"><div class="enlaceMark"><img class="imgBookmark" src="images/btn-bookmark.png"/></div><strong> AFCS LNAV CMD - </strong>Navigation</a>
+                    </div>
+                </div>
+            <!-- FIN DATOS -->
+            </main>
+        </section>
+        <div class="clear"></div>
+        <footer></footer>
+    </body>
+</html>

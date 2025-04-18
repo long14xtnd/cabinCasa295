@@ -1,0 +1,179 @@
+/*
+*@author Atexis Spain SL
+*/
+body.indice{background-image:url(../images/background-cabina-dark.jpg); background-repeat: no-repeat; background-position:center top; background-size:100% 100%;}
+/*body.indConsole{background-image:url(../images/bg-Fits2-dark.png); background-repeat: no-repeat; background-position:center top; background-size:100% 100%;}*/
+body.indConsole{background-image:url(../images/bg-Fits3-dark.png); background-repeat: no-repeat; background-position:center top; background-size:100% 100%;}
+
+
+section{
+	padding:0px !important;
+	margin-left: 0px !important;
+}
+
+
+#cont-indice{
+    height:100%;
+    width:60%;
+    margin:auto; 
+    margin-top:0%;
+    padding-top: 14%;
+}
+
+#cont-indice-fits{
+    height:100%;
+    width:40%;
+    margin:auto; 
+    margin-top:0%;
+    padding-top: 14%;
+}
+
+.indice section {
+    height: auto;
+    width: 100%;
+}
+
+.menutop {
+    position: relative;
+    height: 100%;
+    float: right;
+    padding: 10px 85px 24px 0px;
+    width: auto;
+}
+.menutop img{
+    position: relative;
+    height: 100%;
+    width: auto;
+    padding: 65px 0px 0px 38px;
+    float: right;
+}
+.izq{
+    float:left;
+    width: 50%;
+}
+.der{
+    float:right;
+    width: 50%;
+    margin-bottom: 30px;
+}
+.chapter.chapterTitle {
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: #0085AD;
+    margin-top: 25px;
+}
+
+
+.chapter {
+    color: #FFF;
+    background-color: rgba(0, 85, 135, 0.7);
+    margin: 6px 2px 0px 2px;
+    font-weight: bold;
+        display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: -webkit-flex-start;
+    justify-content: -moz-flex-start;
+    justify-content: -o-flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-align-content: flex-start;
+    -moz-align-content: flex-start;
+    -o-align-content: flex-start;
+    align-content: flex-start;
+
+
+
+    -webkit-transition-timing-function: ease;
+    -moz-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+
+    -webkit-transition-property: background-color;
+    -moz-transition-property:  background-color;
+    -o-transition-property: background-color;
+    transition-property:  background-color;
+
+    -webkit-transition-duration: 0.6s;
+    -moz-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+}
+.chapter:hover, .chapter:focus, .chapter:active{
+    background-color: rgba(0, 85, 135, 1);
+}
+.chapter.chapterTitle:hover, .chapter.chapterTitle:focus, .chapter.chapterTitle:active {
+    background-color: #0085AD;
+}
+.numchap {
+    padding: 9px 11px;
+    -webkit-flex: 0 1 auto;
+    -moz-flex: 0 1 auto;
+    -o-flex: 0 1 auto;
+    flex: 0 1 auto; 
+
+        display: -webkit-flex;
+    display: -moz-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -moz-flex-wrap: nowrap;
+    -o-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    justify-content: -webkit-flex-start;
+    justify-content: -moz-flex-start;
+    justify-content: -o-flex-start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -webkit-align-content: flex-start;
+    -moz-align-content: flex-start;
+    -o-align-content: flex-start;
+    align-content: flex-start;
+    background-color: #0085ad;
+    font-size: 1.2em;
+    margin-right: 12px;
+    min-width: 43px;
+    text-align: center;
+}
+
+.chapter span{
+    -webkit-flex: 100 1 auto;
+    -moz-flex: 100 1 auto;
+    -o-flex: 100 1 auto;
+    flex: 100 1 auto; 
+}
+.numchap img {
+   height: 2.5em;
+}
+a:focus, a:hover, a:active {
+    text-decoration: none;
+}
+
+.inicio nav {
+    top: 34%;
+}
+
+.indiceTitulo{
+    width: 100%;
+    margin-bottom: 5px;
+}
